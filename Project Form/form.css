@@ -1,0 +1,172 @@
+body
+{
+    margin: 0;
+    font-family: "Ubuntu";
+}
+
+input
+{
+    display: block;
+    padding: 5px;
+    width: 200px;
+    border: 0.5px solid rgb(203, 203, 203);
+    border-radius: 3px;
+    outline: none; 
+}
+
+input:focus-visible
+{
+    border-style: solid;
+    outline: none;
+    border-color: rgb(0, 145, 255);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Assets/antipolygon-youtube-E7529uK7B2c-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.login-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 550px;
+    height: 80%;
+    background-color: rgb(250, 244, 250);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.logo-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 75px;
+    background-color: #d38bb9;
+    border-radius: 15px;
+}
+
+.main-logo-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    height: 100%;
+}
+
+.logo 
+{
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.logo-text
+{
+    font-family: "Bungee", sans-serif;
+    font-size: 25px;
+    color: rgba(239,63,146,255);
+    margin-left: 10px;
+}
+
+.intro-text 
+{
+    margin-top: 40px;
+    font-size: 27px;
+    font-family: "Lato";
+    color: #d38bb9;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-container
+{
+    margin-top: 40px;
+    padding: 20px 15px 20px 15px;
+    width: 85%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-in
+{
+    font-size: 25px;
+    font-family: "Bungee";
+}
+
+.info-row
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.title
+{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-family: "source code pro";
+}
+
+.sign-in-button
+{
+    background-color: #d38bb9;
+    padding: 10px;
+    font-family: "Bungee";
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    width: 170px;
+    height: 40px;
+}
+
+.sign-in-button:hover
+{
+    background-color: white;
+    border-style: solid;
+    border-color: #d38bb9;
+    color: #d38bb9;
+    cursor: pointer;
+}
+
+.already-login
+{
+    margin-top: 20px;
+}
+
+.login-text
+{
+    font-weight: bold;
+    color: #d38bb9;
+}
+
+.login-text:hover
+{
+    color: rgb(87, 171, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
